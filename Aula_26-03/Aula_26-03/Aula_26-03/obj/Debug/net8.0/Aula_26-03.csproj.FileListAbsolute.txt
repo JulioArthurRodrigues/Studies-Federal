@@ -1,0 +1,14 @@
+C:\Users\aluno\Desktop\Aula_26-03\Aula_26-03\Aula_26-03\bin\Debug\net8.0\Aula_26-03.exe
+C:\Users\aluno\Desktop\Aula_26-03\Aula_26-03\Aula_26-03\bin\Debug\net8.0\Aula_26-03.deps.json
+C:\Users\aluno\Desktop\Aula_26-03\Aula_26-03\Aula_26-03\bin\Debug\net8.0\Aula_26-03.runtimeconfig.json
+C:\Users\aluno\Desktop\Aula_26-03\Aula_26-03\Aula_26-03\bin\Debug\net8.0\Aula_26-03.dll
+C:\Users\aluno\Desktop\Aula_26-03\Aula_26-03\Aula_26-03\bin\Debug\net8.0\Aula_26-03.pdb
+C:\Users\aluno\Desktop\Aula_26-03\Aula_26-03\Aula_26-03\obj\Debug\net8.0\Aula_26-03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Desktop\Aula_26-03\Aula_26-03\Aula_26-03\obj\Debug\net8.0\Aula_26-03.AssemblyInfoInputs.cache
+C:\Users\aluno\Desktop\Aula_26-03\Aula_26-03\Aula_26-03\obj\Debug\net8.0\Aula_26-03.AssemblyInfo.cs
+C:\Users\aluno\Desktop\Aula_26-03\Aula_26-03\Aula_26-03\obj\Debug\net8.0\Aula_26-03.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\Aula_26-03\Aula_26-03\Aula_26-03\obj\Debug\net8.0\Aula_26-03.dll
+C:\Users\aluno\Desktop\Aula_26-03\Aula_26-03\Aula_26-03\obj\Debug\net8.0\refint\Aula_26-03.dll
+C:\Users\aluno\Desktop\Aula_26-03\Aula_26-03\Aula_26-03\obj\Debug\net8.0\Aula_26-03.pdb
+C:\Users\aluno\Desktop\Aula_26-03\Aula_26-03\Aula_26-03\obj\Debug\net8.0\Aula_26-03.genruntimeconfig.cache
+C:\Users\aluno\Desktop\Aula_26-03\Aula_26-03\Aula_26-03\obj\Debug\net8.0\ref\Aula_26-03.dll
