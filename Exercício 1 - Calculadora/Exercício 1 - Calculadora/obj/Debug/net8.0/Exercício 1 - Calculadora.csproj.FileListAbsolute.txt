@@ -1,0 +1,14 @@
+C:\Users\aluno\Desktop\Projects Juliao\Exercício 1 - Calculadora\Exercício 1 - Calculadora\bin\Debug\net8.0\Exercício 1 - Calculadora.exe
+C:\Users\aluno\Desktop\Projects Juliao\Exercício 1 - Calculadora\Exercício 1 - Calculadora\bin\Debug\net8.0\Exercício 1 - Calculadora.deps.json
+C:\Users\aluno\Desktop\Projects Juliao\Exercício 1 - Calculadora\Exercício 1 - Calculadora\bin\Debug\net8.0\Exercício 1 - Calculadora.runtimeconfig.json
+C:\Users\aluno\Desktop\Projects Juliao\Exercício 1 - Calculadora\Exercício 1 - Calculadora\bin\Debug\net8.0\Exercício 1 - Calculadora.dll
+C:\Users\aluno\Desktop\Projects Juliao\Exercício 1 - Calculadora\Exercício 1 - Calculadora\bin\Debug\net8.0\Exercício 1 - Calculadora.pdb
+C:\Users\aluno\Desktop\Projects Juliao\Exercício 1 - Calculadora\Exercício 1 - Calculadora\obj\Debug\net8.0\Exercício 1 - Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Desktop\Projects Juliao\Exercício 1 - Calculadora\Exercício 1 - Calculadora\obj\Debug\net8.0\Exercício 1 - Calculadora.AssemblyInfoInputs.cache
+C:\Users\aluno\Desktop\Projects Juliao\Exercício 1 - Calculadora\Exercício 1 - Calculadora\obj\Debug\net8.0\Exercício 1 - Calculadora.AssemblyInfo.cs
+C:\Users\aluno\Desktop\Projects Juliao\Exercício 1 - Calculadora\Exercício 1 - Calculadora\obj\Debug\net8.0\Exercício 1 - Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Desktop\Projects Juliao\Exercício 1 - Calculadora\Exercício 1 - Calculadora\obj\Debug\net8.0\Exercício 1 - Calculadora.dll
+C:\Users\aluno\Desktop\Projects Juliao\Exercício 1 - Calculadora\Exercício 1 - Calculadora\obj\Debug\net8.0\refint\Exercício 1 - Calculadora.dll
+C:\Users\aluno\Desktop\Projects Juliao\Exercício 1 - Calculadora\Exercício 1 - Calculadora\obj\Debug\net8.0\Exercício 1 - Calculadora.pdb
+C:\Users\aluno\Desktop\Projects Juliao\Exercício 1 - Calculadora\Exercício 1 - Calculadora\obj\Debug\net8.0\Exercício 1 - Calculadora.genruntimeconfig.cache
+C:\Users\aluno\Desktop\Projects Juliao\Exercício 1 - Calculadora\Exercício 1 - Calculadora\obj\Debug\net8.0\ref\Exercício 1 - Calculadora.dll
