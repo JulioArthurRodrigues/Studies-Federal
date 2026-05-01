@@ -1,0 +1,5 @@
+PROGRAMAÇÃO ESTRUTURADA - 30/04
+
+DESAFIO do COLETTO para o EXERCÍCIO 3!! 
+
+Leia 15 números e exiba o maior número e o menor número lido.
