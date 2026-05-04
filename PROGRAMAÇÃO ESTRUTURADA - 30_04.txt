@@ -3,3 +3,56 @@ PROGRAMAÇÃO ESTRUTURADA - 30/04
 DESAFIO do COLETTO para o EXERCÍCIO 3!! 
 
 Leia 15 números e exiba o maior número e o menor número lido.
+
+
+
+
+namespace Ex03
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int numero, positivos = 0, negativos = 0;
+            int maior = 0, menor = 0;
+
+            for (int i = 1; i <= 15; i++)
+            {
+                Console.WriteLine("Informe o {0}º número", i);
+                numero = int.Parse(Console.ReadLine());
+
+                if (i == 1)
+                {
+                    maior = numero;
+                    menor = numero;
+                }
+                else
+                {
+                    if (numero > maior)
+                    {
+                        maior = numero;
+                    }
+
+                    if (numero < menor)
+                    {
+                        menor = numero;
+                    }
+                }
+
+                if (numero < 0)
+                {
+                    negativos++;
+                }
+                else
+                {
+                    positivos++;
+                }
+            }
+
+            Console.WriteLine("Positivos: {0}", positivos);
+            Console.WriteLine("Negativos: {0}", negativos);
+            Console.WriteLine("Maior número: {0}", maior);
+            Console.WriteLine("Menor número: {0}", menor);
+        }
+    }
+}
