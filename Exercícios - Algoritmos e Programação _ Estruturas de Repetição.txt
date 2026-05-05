@@ -1,0 +1,269 @@
+Instituto Federal de São Paulo - Câmpus Cubatão
+Nomes: Gustavo da Silva Santos
+Julio Arthur Rodrigues Pereira
+Profº Jair Coletto
+Matéria: Algoritmos e Programação
+
+
+Lista de Exercícios - Estruturas de Repetição
+
+
+
+1- Média de Notas
+
+using System.Net;
+
+namespace Ex01_Notas
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // 1-Fazer um programa que leia as notas P1 e P2 de 5 alunos, a cada leitura exibir a média do aluno e ao final, exibir a média geral dos alunos.//
+
+            double P1, P2;
+            double media, media_total = 0;
+
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine($"Informe a nota P1 de {i}º aluno:");
+                P1 = double.Parse(Console.ReadLine());
+
+                Console.WriteLine($"Informe a nota P2 de {i}º aluno:");
+                P2 = double.Parse(Console.ReadLine());
+
+                media = (P1 + P2) / 2;
+
+                Console.WriteLine($"A média do aluno {i}º é equivalente a {media:N2}");
+                media_total += media;
+            }
+            media_total /= 5;
+            Console.WriteLine($"\nA média total dos alunos é igual a {media_total:N2}");
+        }
+    }
+}
+
+
+
+
+2- Média dos Alunos
+
+using System.Net;
+using System.Net.Http.Headers;
+using System.Runtime.ConstrainedExecution;
+
+namespace Ex01_Notas
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // 2-Fazer um programa que leia as notas P1 e P2 de “n” alunos, a cada leitura exibir a média do aluno e perguntar se irá ler as notas de novo aluno. Ao final, exibir a média dos alunos.//
+
+            double P1, P2, media;
+            double somaMedias = 0;
+            int qtdAlunos = 0;
+            string resposta;
+
+            do
+            {
+                Console.WriteLine($"Informe a nota P1 do {qtdAlunos + 1}º aluno:");
+                P1 = double.Parse(Console.ReadLine());
+
+                Console.WriteLine($"Informe a nota P2 do {qtdAlunos + 1}º aluno:");
+                P2 = double.Parse(Console.ReadLine());
+
+                media = (P1 + P2) / 2;
+
+                Console.WriteLine($"Média do aluno: {media:N2}");
+
+                somaMedias += media;
+                qtdAlunos++;
+
+                Console.WriteLine("Deseja informar a nota de um outro aluno? (s/n)");
+                resposta = Console.ReadLine();
+
+            } while (resposta == "s");
+
+            if (qtdAlunos > 0)
+            {
+                double mediaGeral = somaMedias / qtdAlunos;
+                Console.WriteLine($"\nMédia geral dos alunos: {mediaGeral:N2}");
+            }
+            else
+            {
+                Console.WriteLine("Nenhum aluno foi informado.");
+            }
+        }
+    }
+}
+
+
+
+
+
+3- Maioridade
+
+
+using System.Net;
+using System.Net.Http.Headers;
+using System.Runtime.ConstrainedExecution;
+
+namespace Ex01_Notas
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // 3-Escreva um programa que receba a idade de 10 pessoas, calcule e exiba a quantidade de pessoas maiores de idade.//
+
+            int idade;
+            int maioresDeIdade = 0;
+
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine($"Informe a idade da {i}ª pessoa:");
+                idade = int.Parse(Console.ReadLine());
+
+                if (idade >= 18)
+                {
+                    maioresDeIdade++;
+                }
+            }
+            Console.WriteLine($"\nQuantidade de pessoas maiores de idade: {maioresDeIdade}");
+        }  
+    }
+}
+
+
+
+
+
+4- Números Pares
+
+
+using System.Net;
+using System.Net.Http.Headers;
+using System.Runtime.ConstrainedExecution;
+
+namespace Ex01_Notas
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // 4-Fazer um programa que imprima os números pares existentes no intervalo de 0 a 100.//
+
+            for (int i = 0; i <= 100; i += 2)
+            {
+                Console.WriteLine(i);
+            }
+        }  
+    }
+}
+
+
+
+
+
+
+5- Tabuada 1 ao 10
+
+
+using System.Net;
+using System.Net.Http.Headers;
+using System.Runtime.ConstrainedExecution;
+using System.Runtime.Intrinsics.X86;
+
+namespace Ex01_Notas
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // 5-Faça um programa que exiba as tabuadas de 1 a 10. A cada tabuada exibida solicitar ao usuário que pressione uma tecla para exibir a próxima tabuada.//
+
+            for (int numero = 1; numero <= 10; numero++)
+            {
+                Console.Clear();
+                Console.WriteLine($"Tabuada do número {numero}");
+                Console.WriteLine("---------------------");
+
+                for (int i = 1; i <= 10; i++)
+                {
+                    Console.WriteLine($"{numero} * {i} = {numero * i}");
+                }
+
+                Console.WriteLine("\nPressione qualquer tecla para visualizar a próxima tabuada...");
+                Console.ReadKey();
+            }
+            Console.WriteLine("\nFim das tabuadas!");
+        }  
+    }
+}
+
+
+
+
+6- Faixa Etária
+
+using System.Net;
+using System.Net.Http.Headers;
+using System.Runtime.ConstrainedExecution;
+using System.Runtime.Intrinsics.X86;
+
+namespace Ex01_Notas
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // 5-Faça um programa que exiba as tabuadas de 1 a 10. A cada tabuada exibida solicitar ao usuário que pressione uma tecla para exibir a próxima tabuada.//
+
+            int faixa1 = 0, faixa2 = 0, faixa3 = 0, faixa4 = 0, faixa5 = 0;
+            int idade;
+
+            for (int i = 1; i <= 15; i++)
+            {
+                Console.WriteLine($"Informe a idade da {i}º pessoa: ");
+                idade = int.Parse(Console.ReadLine());
+
+                switch (idade)
+                {
+                    case >= 0 and <= 15:
+                       faixa1++;
+                       break;
+
+                    case <= 30:
+                        faixa2++; 
+                        break;
+
+                    case <= 45:
+                        faixa3++;
+                        break;
+
+                    case <= 60:
+                        faixa4++;
+                        break;
+
+                    default:
+                        faixa5++;
+                        break; 
+                }
+
+                double P1 = (faixa1 / 15.0) * 100;
+                double P2 = (faixa2 / 15.0) * 100;
+                double P3 = (faixa3 / 15.0) * 100;
+                double P4 = (faixa4 / 15.0) * 100;
+                double P5 = (faixa5 / 15.0) * 100;
+
+                Console.WriteLine("\nResultados");
+                Console.WriteLine($"1 a 15 anos: {faixa1} pessoas ({P1:N2}%)");
+                Console.WriteLine($"16 a 30 anos: {faixa2} pessoas ({P2:N2}%)");
+                Console.WriteLine($"31 a 45 anos: {faixa3} pessoas ({P3:N2}%)");
+                Console.WriteLine($"46 a 60 anos: {faixa4} pessoas ({P4:N2}%)");
+                Console.WriteLine($"Acima de 60 anos: {faixa5} pessoas ({P5:N2}%)");
+            }
+        }  
+    }
+}
